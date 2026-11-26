@@ -725,7 +725,7 @@ function App() {
        
       <footer className="footer">
         <div className="footer-track">
-          {[1].map((item) => (
+          {[1,2,3,4,5].map((item) => (
             <div className="footer-content" key={item}>
               <b className="footer-name">Aniket Abhang Patil</b>
               <span>Software Engineer</span>
