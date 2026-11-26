@@ -11,7 +11,7 @@ import {
 
 import Aircraft3D from './components/Aircraft3D';
 
-const API = 'http://localhost:5000/api';
+const API = '/api';
 
 function playEffect(name) {
   const audio = new Audio(`/sounds/${name}.mp3`);
@@ -725,7 +725,7 @@ function App() {
        
       <footer className="footer">
         <div className="footer-track">
-          {[1,2,3,4,5].map((item) => (
+          {[1].map((item) => (
             <div className="footer-content" key={item}>
               <b className="footer-name">Aniket Abhang Patil</b>
               <span>Software Engineer</span>

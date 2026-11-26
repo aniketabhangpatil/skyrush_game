@@ -542,8 +542,4 @@ app.post('/api/game/crash', requireAuth, async (req, res) => {
   }
 });
 
-const port = Number(process.env.PORT || 5000);
-
-app.listen(port, () => {
-  console.log(`API running on http://localhost:${port}`);
-});
+export default app;
